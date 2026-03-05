@@ -1,4 +1,5 @@
 # Climate Risk Analytics for Aquaculture Regions in Australia
+![Project Status](https://img.shields.io/badge/status-in%20progress-blue)
 
 ## Project Overview
 
