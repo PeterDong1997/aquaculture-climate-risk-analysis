@@ -91,6 +91,7 @@ Aquaculture is particularly exposed to environmental variability. This project c
 
 ## Repository Structure
 
+```
 aquaculture-climate-risk-analysis
 │
 ├── data
@@ -104,7 +105,7 @@ aquaculture-climate-risk-analysis
 ├── report
 │
 └── README.md
-
+```
 ---
 
 ## Project Status
