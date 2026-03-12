@@ -11,6 +11,21 @@ The project demonstrates how climate risk analytics can be applied to climate-se
 
 ---
 
+## Why This Project Matters
+
+Aquaculture is one of the fastest growing food production sectors globally, but it is also highly exposed to environmental variability and climate change.
+
+Understanding regional climate exposure can help support:
+
+- risk assessment for aquaculture operations
+- climate adaptation planning
+- ESG and sustainability reporting
+- long-term planning for climate-sensitive food systems
+
+This project demonstrates how data science methods can be used to analyse climate risks for real-world industries.
+
+---
+
 ## Research Question
 
 **How exposed are aquaculture regions in Australia to climate variability and extreme weather events?**
@@ -68,6 +83,25 @@ The project will follow a data analysis workflow:
 
 5. **Visualisation & Mapping**  
    Create visualisations to highlight climate risk patterns.
+
+---
+
+## Key Techniques
+
+This project applies several data science and geospatial analysis techniques, including:
+
+- Data integration from multiple climate datasets
+- Time series analysis of climate variability
+- Exploratory data analysis (EDA)
+- Construction of a composite Climate Exposure Index
+- Geospatial visualisation of regional climate risks
+
+The analysis is implemented using Python-based data science tools such as:
+
+- Pandas for data processing
+- NumPy for numerical operations
+- Matplotlib / Seaborn for visualisation
+- Geospatial analysis tools for mapping climate exposure across regions
 
 ---
 
