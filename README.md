@@ -5,15 +5,6 @@ Data-driven exploration of climate exposure in Australia's aquaculture industry.
 
 ---
 
-## Project Highlights
-
-- Analysis of Australian aquaculture production trends  
-- Identification of climate-sensitive aquaculture regions  
-- Construction of a regional Climate Exposure Index  
-- Integration of climate datasets and aquaculture industry data
-
----
-
 ## Project Overview
 
 Aquaculture is highly sensitive to environmental variability and extreme weather events. Climate change is increasing the frequency and intensity of events such as marine heatwaves, tropical cyclones, and extreme rainfall, which may affect aquaculture production systems.
@@ -21,6 +12,82 @@ Aquaculture is highly sensitive to environmental variability and extreme weather
 This project applies data science techniques to analyse climate exposure across aquaculture regions in Australia. By integrating multiple climate datasets, the analysis aims to identify regions that may face higher exposure to climate variability and extreme weather events.
 
 The project demonstrates how climate risk analytics can be applied to climate-sensitive industries such as aquaculture.
+
+---
+
+## Project Highlights
+
+- Analysis of long-term **aquaculture production trends**
+- Examination of **industry concentration across species**
+- Measurement of **production volatility**
+- Exploration of **industry concentration versus production risk**
+- Foundation for analysing **climate exposure in aquaculture regions**
+
+---
+
+## Example Insight
+
+![Total Production Trend](figures/total_production_trend.png)
+
+Australian aquaculture production has expanded significantly over the past two decades, with **salmonids becoming the dominant contributor to industry value**.  
+Understanding the structure and volatility of aquaculture production provides important context for assessing **climate exposure in climate-sensitive food systems**.
+
+---
+
+# Example Analysis
+
+The repository includes exploratory analysis of **Australian aquaculture production data**.  
+These analyses provide context for understanding how climate variability may affect aquaculture production systems across Australia.
+
+---
+
+## Total Aquaculture Production Trend
+
+![Total Production Trend](figures/total_production_trend.png)
+
+Australian aquaculture production has expanded substantially over the past two decades.  
+The overall upward trend reflects the growing economic importance of aquaculture within Australia's seafood sector.  
+This growth also highlights the increasing relevance of assessing climate-related risks that may affect long-term production stability.
+
+---
+
+## Major Species Production Trends
+
+![Major Species Trends](figures/major_species_trends.png)
+
+Production trends across major aquaculture species show strong structural differences within the industry.  
+Salmonids dominate the sector and have experienced significant growth over time, while other species such as prawns, oysters, and tuna display more moderate and stable production patterns.  
+Understanding these species-level dynamics helps identify which aquaculture sectors may be most exposed to environmental variability.
+
+---
+
+## Industry Concentration
+
+![Species Concentration](figures/species_concentration.png)
+
+Australian aquaculture production is highly concentrated among a small number of species.  
+Salmonids account for a large share of national production value, indicating a relatively concentrated industry structure.  
+High concentration may increase systemic risk if climate shocks affect the dominant species.
+
+---
+
+## Production Volatility
+
+![Species Volatility](figures/species_volatility.png)
+
+Production volatility varies considerably across aquaculture species.  
+Some species exhibit relatively stable production levels, while others show greater year-to-year fluctuations.  
+Higher volatility may indicate stronger sensitivity to environmental conditions, market factors, or biological constraints.
+
+---
+
+## Industry Concentration vs Production Volatility
+
+![Share vs Volatility](figures/share_vs_volatility.png)
+
+This chart compares the **industry share of each species with its production volatility**.  
+Species with both high production share and high volatility may represent higher systemic risk within the aquaculture sector.  
+Such patterns can help highlight which aquaculture industries may require greater attention when assessing climate exposure and long-term production resilience.
 
 ---
 
@@ -60,32 +127,6 @@ Sub-questions include:
 
 ---
 
-# Data Sources
-
-The project integrates several publicly available datasets.
-
-### Climate Data
-
-**Bureau of Meteorology (BOM)**
-
-- Temperature observations  
-- Rainfall data  
-- Extreme weather records  
-
-**Sea Surface Temperature Data (NOAA / NASA)**
-
-- Ocean temperature patterns relevant to coastal aquaculture  
-
-**Cyclone Track Data (BOM)**
-
-- Historical tropical cyclone paths affecting northern Australia  
-
-### Aquaculture Data
-
-Australian fisheries and aquaculture production statistics used to identify major aquaculture regions and industry structure.
-
----
-
 ## Methodology
 
 The project follows a standard data science workflow.
@@ -118,6 +159,42 @@ Visualisations and geospatial analysis are used to highlight climate risk patter
 
 ---
 
+## Tools Used
+
+- **Python**
+- **Pandas** – data cleaning and transformation
+- **NumPy** – numerical operations
+- **Matplotlib / Seaborn** – data visualisation
+- **Jupyter Notebook** – exploratory data analysis
+
+---
+
+# Data Sources
+
+The project integrates several publicly available datasets.
+
+### Climate Data
+
+**Bureau of Meteorology (BOM)**
+
+- Temperature observations  
+- Rainfall data  
+- Extreme weather records  
+
+**Sea Surface Temperature Data (NOAA / NASA)**
+
+- Ocean temperature patterns relevant to coastal aquaculture  
+
+**Cyclone Track Data (BOM)**
+
+- Historical tropical cyclone paths affecting northern Australia  
+
+### Aquaculture Data
+
+Australian fisheries and aquaculture production statistics used to identify major aquaculture regions and industry structure.
+
+---
+
 ## Key Techniques
 
 This project applies several data science and geospatial analysis techniques, including:
@@ -137,29 +214,6 @@ The analysis is implemented using Python-based data science tools such as:
 
 ---
 
-# Example Analysis
-
-The repository also includes exploratory analysis of **Australian aquaculture production data**, including:
-
-- industry concentration analysis  
-- production volatility analysis  
-- long-term production trends  
-
-These analyses provide context for understanding **how climate variability may affect aquaculture production systems**.
-
----
-
-## Expected Outputs
-
-The project aims to produce:
-
-- Climate exposure maps for aquaculture regions in Australia
-- Visualisations of extreme weather trends
-- A simple regional climate exposure ranking
-- A short analytical report summarising key findings
-
----
-
 ## ESG Context
 
 Frameworks such as the **Task Force on Climate-related Financial Disclosures (TCFD)** emphasise the importance of assessing **physical climate risks** for climate-sensitive industries.
@@ -174,14 +228,13 @@ Aquaculture is particularly exposed to environmental variability. This project c
 aquaculture-climate-risk-analysis
 │
 ├── data
-│ ├── raw
-│ └── processed
+│   Raw aquaculture production datasets
 │
 ├── notebooks
+│   Exploratory analysis and visualisation notebooks
 │
 ├── figures
-│
-├── report
+│   Exported charts used in the README and analysis
 │
 └── README.md
 ```
