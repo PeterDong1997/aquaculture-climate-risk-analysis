@@ -1,5 +1,17 @@
 # Climate Risk Analytics for Aquaculture Regions in Australia
 ![Project Status](https://img.shields.io/badge/status-in%20progress-blue)
+Data-driven exploration of climate exposure in Australia's aquaculture industry.
+
+---
+
+## Project Highlights
+
+- Analysis of Australian aquaculture production trends  
+- Identification of climate-sensitive aquaculture regions  
+- Construction of a regional Climate Exposure Index  
+- Integration of climate datasets and aquaculture industry data
+
+---
 
 ## Project Overview
 
@@ -47,42 +59,61 @@ Sub-questions include:
 
 ---
 
-## Datasets (Planned)
+# Data Sources
 
-The project will integrate publicly available climate datasets, including:
+The project integrates several publicly available datasets.
 
-- **Bureau of Meteorology (BOM)**  
-  Weather and climate observations across Australia.
+### Climate Data
 
-- **Sea Surface Temperature Data (NOAA / NASA)**  
-  Ocean temperature patterns relevant to coastal aquaculture.
+**Bureau of Meteorology (BOM)**
 
-- **Cyclone Track Data (BOM)**  
-  Historical tropical cyclone paths affecting northern Australia.
+- Temperature observations  
+- Rainfall data  
+- Extreme weather records  
 
-- **Aquaculture Region Data**  
-  Locations of major aquaculture regions in Australia.
+**Sea Surface Temperature Data (NOAA / NASA)**
+
+- Ocean temperature patterns relevant to coastal aquaculture  
+
+**Cyclone Track Data (BOM)**
+
+- Historical tropical cyclone paths affecting northern Australia  
+
+### Aquaculture Data
+
+Australian fisheries and aquaculture production statistics used to identify major aquaculture regions and industry structure.
 
 ---
 
 ## Methodology
 
-The project will follow a data analysis workflow:
+The project follows a standard data science workflow.
 
-1. **Data Collection**  
-   Gather climate and environmental datasets relevant to aquaculture regions.
+### 1. Data Collection
 
-2. **Data Cleaning & Processing**  
-   Standardise datasets and prepare them for analysis.
+Climate and environmental datasets relevant to aquaculture regions are collected.
 
-3. **Exploratory Data Analysis**  
-   Identify patterns in temperature anomalies, rainfall variability, and extreme weather events.
+### 2. Data Cleaning and Processing
 
-4. **Climate Exposure Index Development**  
-   Combine selected indicators to estimate regional exposure levels.
+Datasets are standardised and prepared for analysis.
 
-5. **Visualisation & Mapping**  
-   Create visualisations to highlight climate risk patterns.
+### 3. Exploratory Data Analysis
+
+Climate variability indicators such as:
+
+- temperature anomalies  
+- rainfall variability  
+- extreme weather events  
+
+are analysed across regions.
+
+### 4. Climate Exposure Index Development
+
+Selected indicators are combined to estimate **regional climate exposure levels**.
+
+### 5. Visualisation and Mapping
+
+Visualisations and geospatial analysis are used to highlight climate risk patterns.
 
 ---
 
@@ -102,6 +133,18 @@ The analysis is implemented using Python-based data science tools such as:
 - NumPy for numerical operations
 - Matplotlib / Seaborn for visualisation
 - Geospatial analysis tools for mapping climate exposure across regions
+
+---
+
+# Example Analysis
+
+The repository also includes exploratory analysis of **Australian aquaculture production data**, including:
+
+- industry concentration analysis  
+- production volatility analysis  
+- long-term production trends  
+
+These analyses provide context for understanding **how climate variability may affect aquaculture production systems**.
 
 ---
 
