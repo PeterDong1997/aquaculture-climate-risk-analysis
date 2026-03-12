@@ -1,5 +1,6 @@
 # Climate Risk Analytics for Aquaculture Regions in Australia
 ![Project Status](https://img.shields.io/badge/status-in%20progress-blue)
+
 Data-driven exploration of climate exposure in Australia's aquaculture industry.
 
 ---
